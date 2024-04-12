@@ -30,7 +30,8 @@ nav{
     height: 80px;
     background-color: #fff;
     border-bottom: 1px solid transparent;
-    box-shadow: 1px 1px 10px 0 rgba(0,0 .2);
+    box-shadow: 0 8px 12px rgba(141, 96, 96, 0.822);
+    
     position: fixed;
     top: 0;
     z-index: 100;
@@ -129,21 +130,24 @@ a{
     width: 100%;
     text-align: center;
 }
-.educacion{
+.articulo{
     background-color: antiquewhite;
 
+
 }
-.content-education{ 
+.content-education{
+    background-color: antiquewhite;
+ 
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 500px;
     justify-content: space-around;
 }
 .articulo{
-    width: 30%;
-    margin-top: 50px;
+    width: 60%; 
     background-color: #fff;
-    border-radius: 10px;
+    margin-top: 50px;
+    border-radius: 0px;
     padding: 45px 30px 60px 30px;
     transition: all ease-in-out .5s;
 }
