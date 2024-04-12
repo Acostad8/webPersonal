@@ -147,7 +147,7 @@ a{
     width: 60%; 
     background-color: #fff;
     margin-top: 50px;
-    border-radius: 0px;
+    border-radius: 30px;
     padding: 45px 30px 60px 30px;
     transition: all ease-in-out .5s;
 }
